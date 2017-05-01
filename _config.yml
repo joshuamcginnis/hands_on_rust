@@ -13,14 +13,16 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Hands on Rust
-email: your-email@domain.com
+title: Hands-On Rust
+email: joshua@mcginnis.io
 description: > # this means to ignore newlines until "baseurl:"
-  Get hands on with Rust.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+  A developer-focused blog for learning the Rust Programming language.
+baseurl: ""
+url: "http://handsonrust.com"
+twitter_username: joshuamc
+github_username:  joshuamcginnis
+permalink: /:title.html
+github_url: https://github.com/joshuamcginnis
 
 # Build settings
 markdown: kramdown
